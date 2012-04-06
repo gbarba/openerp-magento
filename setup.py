@@ -39,7 +39,7 @@ setup(name='openerp-magento',
       install_requires=requires,
       entry_points="""
       [trytond.modules]
-      timesheet_invoice = trytond.modules.openerp_magento
+      openerp_magento = trytond.modules.openerp_magento
       """,
       )
 
